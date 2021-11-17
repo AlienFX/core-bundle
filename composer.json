@@ -1,0 +1,24 @@
+{
+    "name": "alienfx-area/core-bundle",
+    "description": "Core Bundle: Require package for AlienFX Area",
+    "authors" : [
+        {
+            "name": "Florian Ronzi",
+            "email": "manager@alienfx.net",
+            "role": "Developer"
+        }
+    ],
+	  "autoload": {
+        "psr-0": {
+            "Area\\Core": "src/",
+            "Area\\Helpers": "src/"
+        }
+    },
+	  "require": {
+        "league/plates": "3.*",
+        "leafo/scssphp": "0.0.9"
+    },
+    "require-dev": {
+
+    }
+}
